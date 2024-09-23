@@ -17,7 +17,7 @@ app.listen(port, () => {
 
 const corsOptions = {
     origin: 'https://mente-saudavel.vercel.app',
-    optionsSuccessStatus: 200
+    methods: "GET,POST,PUT,DELETE",
   };
   
   app.use(cors(corsOptions));

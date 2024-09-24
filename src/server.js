@@ -6,8 +6,8 @@ const app = express();
 const port = 3000;
 
 const corsOptions = {
-    origin: 'https://mente-saudavel.vercel.app',
-    methods: "GET,POST,PUT,DELETE",
+    origin: ['https://mente-saudavel.vercel.app'],
+    methods: ["GET"],
   };
   
 app.use(cors(corsOptions));
